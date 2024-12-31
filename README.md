@@ -35,11 +35,13 @@ To decrypt text, use this method:
 cryptographer.decrypt(text, lang, shift);
 ```
 
-**Note**: If you don't provide the _shift_ as the third argument, the method will return an array with all possible variations of the text.
+**Note**: If you don't provide the `shift` as the third argument, the method will return an array with all possible variations of the text.
 
 ## Supported Languages
 
-- English
-- Ukrainian
+In parentheses, you can see the abbreviation that should be passed as the `lang` parameter.
+
+- English (en)
+- Ukrainian (uk)
 
 _More languages will be supported in the future._
