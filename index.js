@@ -1,4 +1,4 @@
-class Cryptographer {
+export class Cryptographer {
   #englishAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   #ukraineAlphabet = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ";
 
