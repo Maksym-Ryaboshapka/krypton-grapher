@@ -1,3 +1,6 @@
+<img src="./src/assets/images/logo.png" alt="Krypton Element" width="250" style="display: block; margin: 0 auto 40px auto;" />
+
+
 # Krypton Grapher
 
 ## Installation

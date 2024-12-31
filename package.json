@@ -1,6 +1,6 @@
 {
   "name": "krypton-grapher",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Krypton Grapher is a lightweight JavaScript library for encrypting and decrypting text    with ease. It offers simple APIs for implementing text security in your applications, whether for personal projects or professional use. Designed with flexibility and performance in mind, Krypton Grapher is suitable for both frontend and backend environments.",
   "homepage": "https://github.com/Maksym-Ryaboshapka/krypton-grapher#readme",
   "bugs": {
@@ -34,5 +34,11 @@
     "hashing",
     "krypton",
     "security tools"
-  ]
+  ],
+  "scripts": {
+    "build": "npx terser src/index.js -o index.js --mangle"
+  },
+  "devDependencies": {
+    "terser": "^5.37.0"
+  }
 }
