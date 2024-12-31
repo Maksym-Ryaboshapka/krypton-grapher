@@ -1,0 +1,20 @@
+{
+  "name": "krypton-grapher",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Maksym-Ryaboshapka/krypton-grapher#readme",
+  "bugs": {
+    "url": "https://github.com/Maksym-Ryaboshapka/krypton-grapher/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksym-Ryaboshapka/krypton-grapher.git"
+  },
+  "license": "MIT",
+  "author": "Maksym Ryaboshapka",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
