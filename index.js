@@ -25,7 +25,7 @@ class Cryptographer {
           (alphabet.indexOf(char.toUpperCase()) + shift) % alphabet.length;
 
         if (index < 0) index += alphabet.length;
-        
+
         const newChar = alphabet.charAt(index);
         result += isLower ? newChar.toLowerCase() : newChar;
       } else {
@@ -60,7 +60,3 @@ class Cryptographer {
 }
 
 const cryptographer = new Cryptographer();
-
-// console.log(cryptographer.encrypt("Привіт, як справи?", 14));
-// console.log(cryptographer.decrypt("Абфмхг, йш вабкмф?", "uk", 14));
-console.log(cryptographer.decrypt("Абфмхг, йш вабкмф?", "uk"));
